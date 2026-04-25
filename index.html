@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GiftGenie — Find the Perfect Gift</title>
+    <meta name="description" content="GiftGenie helps you find the perfect gift for any occasion. Choose between thoughtful handcrafted ideas or convenient ready-to-buy gifts." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎁</text></svg>" />
+</head>
+<body>
+
+<div class="page-wrapper">
+
+    <!-- ====== Header ====== -->
+    <header class="site-header">
+        <div class="header-ornament">
+            <div class="ornament-line"></div>
+            <span class="ornament-icon">🎁</span>
+            <div class="ornament-line right"></div>
+        </div>
+        <h1 class="site-title">Gift<em>Genie</em></h1>
+        <p class="site-tagline">Inspired gifts for every occasion</p>
+    </header>
+
+    <!-- ====== Form Card ====== -->
+    <main>
+        <div class="form-card">
+
+            <!-- Occasion -->
+            <div class="field-group">
+                <label class="field-label" for="occasion">Occasion</label>
+                <select class="field-select" id="occasion" name="occasion">
+                    <option value="">Choose an occasion…</option>
+                    <optgroup label="Milestones">
+                        <option value="anniversary">Anniversary</option>
+                        <option value="engagement">Engagement</option>
+                        <option value="wedding">Wedding</option>
+                        <option value="graduation">Graduation</option>
+                        <option value="new baby">New Baby</option>
+                    </optgroup>
+                    <optgroup label="Celebrations">
+                        <option value="birthday">Birthday</option>
+                        <option value="Christmas">Christmas</option>
+                        <option value="Valentine's Day">Valentine's Day</option>
+                        <option value="Mother's Day">Mother's Day</option>
+                        <option value="Father's Day">Father's Day</option>
+                        <option value="Easter">Easter</option>
+                    </optgroup>
+                    <optgroup label="Everyday">
+                        <option value="housewarming">Housewarming</option>
+                        <option value="thank you">Thank You</option>
+                        <option value="get well soon">Get Well Soon</option>
+                        <option value="just because">Just Because</option>
+                        <option value="farewell">Farewell</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <!-- Recipient -->
+            <div class="field-group">
+                <label class="field-label" for="recipient">Who is it for?</label>
+                <input
+                    type="text"
+                    id="recipient"
+                    name="recipient"
+                    class="field-input"
+                    placeholder="e.g. partner of 5 years who loves hiking and coffee…"
+                    maxlength="200"
+                />
+            </div>
+
+            <!-- Budget -->
+            <div class="field-group">
+                <label class="field-label" for="budget">Budget</label>
+                <div class="budget-wrap">
+                    <input
+                        type="range"
+                        id="budget"
+                        name="budget"
+                        class="budget-slider"
+                        min="10"
+                        max="2000"
+                        step="10"
+                        value="150"
+                    />
+                    <span class="budget-display" id="budget-out">R150</span>
+                </div>
+            </div>
+
+            <!-- Gift Style -->
+            <div class="field-group">
+                <span class="field-label">Gift style</span>
+                <div class="mode-grid">
+
+                    <div>
+                        <input type="radio" name="mode" id="mode-thoughtful" value="thoughtful" class="mode-option" checked />
+                        <label for="mode-thoughtful" class="mode-label">
+                            <div class="mode-icon-wrap">✦</div>
+                            <div class="mode-title-text">Thoughtful</div>
+                            <p class="mode-desc-text">Handwritten notes, keepsakes, personalised experiences &amp; heartfelt gestures</p>
+                        </label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="mode" id="mode-convenient" value="convenient" class="mode-option" />
+                        <label for="mode-convenient" class="mode-label">
+                            <div class="mode-icon-wrap">◈</div>
+                            <div class="mode-title-text">Convenient</div>
+                            <p class="mode-desc-text">Ready to buy online or in-store — quick, reliable, beautifully wrapped</p>
+                        </label>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Generate Button -->
+            <button class="btn-generate" id="gen-btn" onclick="App.generate()">
+                ✦ &nbsp; Find Gift Ideas &nbsp; ✦
+            </button>
+
+        </div><!-- /.form-card -->
+
+        <!-- ====== Results ====== -->
+        <div id="results-area"></div>
+
+        <!-- ====== Saved Shortlist ====== -->
+        <div id="saved-area"></div>
+
+    </main>
+
+    <!-- ====== Footer ====== -->
+    <div class="ornament-divider">· · ·</div>
+    <footer class="site-footer">
+        Made with care &mdash; GiftGenie &copy; 2025
+    </footer>
+
+</div><!-- /.page-wrapper -->
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
