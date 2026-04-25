@@ -3,6 +3,13 @@
 A warm, elegant web app that generates personalised gift ideas using AI.
 Choose between **Thoughtful** (handwritten notes, keepsakes, experiences) or **Convenient** (ready-to-buy) gifts.
 
+## How it benefits the community 
+well I wasn't very good with picking gifts myself, Taking unless amounts of time to think about a gift and still be thinking about gift the day before you need one. So decided to make it a little more simplier.
+
+## What I Improved 
+- improved my skills for JavaScript and php coding.
+- improving my idea of a good aesthetic when it comes to coding the frontend.
+
 ---
 
 ## Project Structure
@@ -69,7 +76,7 @@ Open `http://localhost/giftgenie/` in your browser.
 
 ---
 
-## Features
+## Features 🎁
 - Two gift modes: **Thoughtful** vs **Convenient**
 - AI-powered ideas tailored to occasion, recipient description & budget
 - Save gifts to a shortlist (persisted in MySQL)
@@ -84,3 +91,5 @@ Open `http://localhost/giftgenie/` in your browser.
 - Add email export of saved gifts
 - Add gift tracking (bought / still deciding)
 - Add an admin dashboard to view generation_log analytics
+
+
