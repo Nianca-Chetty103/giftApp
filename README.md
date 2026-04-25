@@ -1,1 +1,1 @@
-# giftApp
+# GiftGenie
