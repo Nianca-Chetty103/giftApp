@@ -4,7 +4,7 @@ A warm, elegant web app that generates personalised gift ideas using AI.
 Choose between **Thoughtful** (handwritten notes, keepsakes, experiences) or **Convenient** (ready-to-buy) gifts.
 
 ## Preview
-![preview]()
+![preview](https://github.com/Nianca-Chetty103/giftApp/blob/main/Screenshot%202026-04-26%20124150.png )
 
 ![preview]()
 
