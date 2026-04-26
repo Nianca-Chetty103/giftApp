@@ -4,7 +4,7 @@ A warm, elegant web app that generates personalised gift ideas using AI.
 Choose between **Thoughtful** (handwritten notes, keepsakes, experiences) or **Convenient** (ready-to-buy) gifts.
 
 ## Preview
-
+![preview](
 
 ## How it benefits the community 
 well I wasn't very good with picking gifts myself, Taking unless amounts of time to think about a gift and still be thinking about gift the day before you need one. So decided to make it a little more simplier.
