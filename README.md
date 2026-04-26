@@ -8,7 +8,7 @@ Choose between **Thoughtful** (handwritten notes, keepsakes, experiences) or **C
 
 ![preview](https://github.com/Nianca-Chetty103/giftApp/blob/main/Screenshot%202026-04-26%20124249.png)
 
-![preview]()
+![preview](https://github.com/Nianca-Chetty103/giftApp/blob/main/Screenshot%202026-04-26%20124306.png)
 
 ## How it benefits the community 
 well I wasn't very good with picking gifts myself, Taking unless amounts of time to think about a gift and still be thinking about gift the day before you need one. So decided to make it a little more simplier.
