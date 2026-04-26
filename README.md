@@ -6,7 +6,7 @@ Choose between **Thoughtful** (handwritten notes, keepsakes, experiences) or **C
 ## Preview
 ![preview](https://github.com/Nianca-Chetty103/giftApp/blob/main/Screenshot%202026-04-26%20124150.png )
 
-![preview]()
+![preview](https://github.com/Nianca-Chetty103/giftApp/blob/main/Screenshot%202026-04-26%20124249.png)
 
 ![preview]()
 
