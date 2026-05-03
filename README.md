@@ -57,7 +57,7 @@ define('DB_HOST', 'localhost');
 define('DB_USER', 'your_mysql_username');
 define('DB_PASS', 'your_mysql_password');
 define('DB_NAME', 'giftgenie');
-define('ANTHROPIC_API_KEY', 'sk-ant-...');  // Your Anthropic API key
+define('ANTHROPIC_API_KEY', 'sk-ant-...');  
 ```
 
 Get your Anthropic API key at: https://console.anthropic.com
